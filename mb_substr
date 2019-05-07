@@ -1,0 +1,17 @@
+<?php
+
+$str = file_get_contents('https://www.niche.com/k12/phillips-academy-andover-ma/');
+
+$s = mb_strpos($str,'[[-');
+
+$str = mb_substr($str,$s,-1);
+
+$s = mb_strpos($str,'[[-');
+
+$e = mb_strpos($str,'],');
+
+$s = $s + 2 ;
+
+$num = mb_substr($str,$s,$e);
+
+print_r($num);
