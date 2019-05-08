@@ -1,192 +1,314 @@
-<?php
-$array = [
-// 	"https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1&searchType=school",
-"https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=10&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=20&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=30&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=40&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=50&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=60&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=70&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=80&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=90&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=100&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=110&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=120&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=130&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=140&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=150&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=160&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=170&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=180&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=190&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=200&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=210&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=220&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=230&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=240&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=250&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=260&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=270&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=280&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=290&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=300&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=310&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=320&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=330&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=340&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=350&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=360&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=370&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=380&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=390&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=400&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=410&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=420&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=430&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=440&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=450&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=460&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=470&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=480&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=490&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=500&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=510&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=520&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=530&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=540&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=550&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=560&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=570&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=580&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=590&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=600&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=610&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=620&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=630&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=640&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=650&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=660&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=670&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=680&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=690&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=700&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=710&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=720&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=730&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=740&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=750&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=760&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=770&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=780&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=790&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=800&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=810&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=820&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=830&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=840&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=850&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=860&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=870&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=880&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=890&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=900&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=910&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=920&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=930&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=940&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=950&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=960&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=970&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=980&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=990&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1000&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1010&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1020&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1030&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1040&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1050&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1060&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1070&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1080&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1090&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1100&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1110&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1120&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1130&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1140&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1150&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1160&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1170&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1180&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1190&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1200&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1210&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1220&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1230&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1240&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1250&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1260&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1270&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1280&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1290&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1300&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1310&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1320&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1330&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1340&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1350&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1360&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1370&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1380&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1390&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1400&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1410&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1420&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1430&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1440&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1450&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1460&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1470&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1480&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1490&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1500&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1510&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1520&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1530&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1540&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1550&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1560&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1570&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1580&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1590&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1600&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1610&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1620&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1630&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1640&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1650&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1660&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1670&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1680&searchType=school",
-// "https://www.niche.com/api/renaissance/results/?gradeLevel=middle&listURL=best-schools&page=1682&searchType=school",
-];
-
-
-// 遍历分页
-foreach ($array as $key => $value) {
-    $json = file_get_contents($value);
-    print_r('<pre>');
-    $school_array = json_decode($json,true)['entities'];
-// 	print_r($school_array = json_decode($json,true)['entities']);
-// 	die;
-    // 	遍历学校
-	foreach ($school_array as $s_key => $s_value) {
-	    print_r('<br>');
-	    print_r('https://www.niche.com/k12/' . $s_value['content']['entity']['url'] . '/' );
-	    
-	}
-	
-}
-// file_get_contents
-
+http://www.findingschool.net/Phillips-Exeter-Academy
+http://www.findingschool.net/The-Lawrenceville-School
+http://www.findingschool.net/Marianapolis-Preparatory-School
+http://www.findingschool.net/Phillips-Academy-Andover
+http://www.findingschool.net/The-Hotchkiss-School
+http://www.findingschool.net/Middlesex-School
+http://www.findingschool.net/Groton-School
+http://www.findingschool.net/St-Pauls-School
+http://www.findingschool.net/Milton-Academy
+http://www.findingschool.net/Deerfield-Academy
+http://www.findingschool.net/Choate-Rosemary-Hall
+http://www.findingschool.net/Concord-Academy
+http://www.findingschool.net/Peddie-School
+http://www.findingschool.net/St-Marks-School
+http://www.findingschool.net/The-Taft-School
+http://www.findingschool.net/Episcopal-High-School
+http://www.findingschool.net/The-Loomis-Chaffee-School
+http://www.findingschool.net/The-Governors-Academy
+http://www.findingschool.net/Cate-School
+http://www.findingschool.net/Miss-Porters-School
+http://www.findingschool.net/The-Webb-Schools
+http://www.findingschool.net/Westtown-School
+http://www.findingschool.net/St-Andrews-School-DE
+http://www.findingschool.net/St-Georges-School
+http://www.findingschool.net/The-Hill-School
+http://www.findingschool.net/Westminster-School
+http://www.findingschool.net/Mercersburg-Academy
+http://www.findingschool.net/Northfield-Mount-Hermon-School
+http://www.findingschool.net/Brooks-School
+http://www.findingschool.net/Berkshire-School
+http://www.findingschool.net/Blair-Academy
+http://www.findingschool.net/Cranbrook-Schools
+http://www.findingschool.net/Georgetown-Preparatory-School
+http://www.findingschool.net/Gould-Academy
+http://www.findingschool.net/Western-Reserve-Academy
+http://www.findingschool.net/Emma-Willard-School
+http://www.findingschool.net/Suffield-Academy
+http://www.findingschool.net/Kent-School
+http://www.findingschool.net/The-Hockaday-School
+http://www.findingschool.net/Tabor-Academy
+http://www.findingschool.net/Dana-Hall-School
+http://www.findingschool.net/The-Thacher-School
+http://www.findingschool.net/The-Masters-School
+http://www.findingschool.net/St-Albans-School
+http://www.findingschool.net/Woodside-Priory-School
+http://www.findingschool.net/George-School
+http://www.findingschool.net/Culver-Academies
+http://www.findingschool.net/The-Cambridge-School-of-Weston
+http://www.findingschool.net/The-Madeira-School
+http://www.findingschool.net/St-Stephens-Episcopal-School-TX
+http://www.findingschool.net/The-Pennington-School
+http://www.findingschool.net/Pomfret-School
+http://www.findingschool.net/The-Hun-School-of-Princeton
+http://www.findingschool.net/Stevenson-School
+http://www.findingschool.net/Westover-School
+http://www.findingschool.net/The-Williston-Northampton-School
+http://www.findingschool.net/Indian-Springs-School
+http://www.findingschool.net/Lake-Forest-Academy
+http://www.findingschool.net/Asheville-School
+http://www.findingschool.net/Saint-Andrews-School
+http://www.findingschool.net/Portsmouth-Abbey-School
+http://www.findingschool.net/Oregon-Episcopal-School
+http://www.findingschool.net/Wyoming-Seminary
+http://www.findingschool.net/Woodberry-Forest-School
+http://www.findingschool.net/North-Broward-Preparatory-School
+http://www.findingschool.net/Canterbury-School
+http://www.findingschool.net/Fountain-Valley-School-of-Colorado
+http://www.findingschool.net/The-Athenian-School
+http://www.findingschool.net/The-Webb-School
+http://www.findingschool.net/Holderness-School
+http://www.findingschool.net/Saint-James-School
+http://www.findingschool.net/Thomas-Jefferson-School
+http://www.findingschool.net/McCallie-School
+http://www.findingschool.net/The-Stony-Brook-School
+http://www.findingschool.net/Virginia-Episcopal-School
+http://www.findingschool.net/Millbrook-School
+http://www.findingschool.net/Proctor-Academy
+http://www.findingschool.net/The-Gunnery
+http://www.findingschool.net/Avon-Old-Farms-School
+http://www.findingschool.net/St-Annes-Belfield-School
+http://www.findingschool.net/Kimball-Union-Academy
+http://www.findingschool.net/Annie-Wright-School
+http://www.findingschool.net/Shady-Side-Academy
+http://www.findingschool.net/San-Domenico
+http://www.findingschool.net/Gould-Academy
+http://www.findingschool.net/New-Hampton-School
+http://www.findingschool.net/Baylor-School
+http://www.findingschool.net/The-Ethel-Walker-School
+http://www.findingschool.net/Lawrence-Academy
+http://www.findingschool.net/Linden-Hall-School-for-Girls
+http://www.findingschool.net/Sandy-Spring-Friends-School
+http://www.findingschool.net/Iolani-School
+http://www.findingschool.net/Santa-Catalina-School
+http://www.findingschool.net/Chatham-Hall
+http://www.findingschool.net/Trinity-Pawling-School
+http://www.findingschool.net/The-Storm-King-School
+http://www.findingschool.net/Salisbury-School
+http://www.findingschool.net/Cushing-Academy
+http://www.findingschool.net/The-Grier-School
+http://www.findingschool.net/The-Bolles-School
+http://www.findingschool.net/Church-Farm-School
+http://www.findingschool.net/Flintridge-Sacred-Heart-Academy
+http://www.findingschool.net/Cheshire-Academy
+http://www.findingschool.net/Foxcroft-School
+http://www.findingschool.net/St-Timothys-School
+http://www.findingschool.net/North-Broward-Preparatory-School
+http://www.findingschool.net/Vermont-Academy
+http://www.findingschool.net/Saint-Johns-Preparatory-School
+http://www.findingschool.net/TMI-The-Episcopal-School-of-Texas
+http://www.findingschool.net/Walnut-Hill-School-for-the-Arts
+http://www.findingschool.net/Saint-Marys-School
+http://www.findingschool.net/Christ-School
+http://www.findingschool.net/Brewster-Academy
+http://www.findingschool.net/South-Kent-School
+http://www.findingschool.net/Worcester-Academy
+http://www.findingschool.net/Hyde-School
+http://www.findingschool.net/Dublin-School
+http://www.findingschool.net/Salem-Academy
+http://www.findingschool.net/Maumee-Valley-Country-Day-School
+http://www.findingschool.net/Darlington-School
+http://www.findingschool.net/The-White-Mountain-School
+http://www.findingschool.net/Marianapolis-Preparatory-School
+http://www.findingschool.net/Brandon-Hall-School
+http://www.findingschool.net/Tallulah-Falls-School
+http://www.findingschool.net/Miss-Halls-School
+http://www.findingschool.net/Perkiomen-School
+http://www.findingschool.net/Marianapolis-Preparatory-School
+http://www.findingschool.net/St-Andrews-School-RI
+http://www.findingschool.net/Stoneleigh-Burnham-School
+http://www.findingschool.net/Maine-Central-Institute
+http://www.findingschool.net/Wilbraham-Monson-Academy
+http://www.findingschool.net/Garrison-Forest-School
+http://www.findingschool.net/The-Linsly-School
+http://www.findingschool.net/The-Village-School
+http://www.findingschool.net/Hoosac-School
+http://www.findingschool.net/The-Putney-School
+http://www.findingschool.net/EF-Academy-New-York
+http://www.findingschool.net/Hawaii-Preparatory-Academy-HI
+http://www.findingschool.net/The-Marvelwood-School
+http://www.findingschool.net/Saint-Bede-Academy
+http://www.findingschool.net/Chaminade-College-Prep-School
+http://www.findingschool.net/Foxcroft-Academy
+http://www.findingschool.net/Shattuck-St-Marys-School
+http://www.findingschool.net/The-Brook-Hill-School
+http://www.findingschool.net/Academy-of-the-New-Church-Secondary-Schools
+http://www.findingschool.net/Gilmour-Academy
+http://www.findingschool.net/Midland-School
+http://www.findingschool.net/Blue-Ridge-School
+http://www.findingschool.net/Solebury-School
+http://www.findingschool.net/Tilton-School
+http://www.findingschool.net/Squaw-Valley-Academy
+http://www.findingschool.net/CATS-Academy-Boston
+http://www.findingschool.net/Thornton-Academy
+http://www.findingschool.net/George-Stevens-Academy
+http://www.findingschool.net/Oakwood-Friends-School
+http://www.findingschool.net/Oakwood-Friends-School
+http://www.findingschool.net/Villanova-Preparatory-School
+http://www.findingschool.net/St-Margarets-School
+http://www.findingschool.net/The-Knox-School
+http://www.findingschool.net/Delphian-School
+http://www.findingschool.net/St-Johns-Northwestern-Military-Academy
+http://www.findingschool.net/Eagle-Hill-School
+http://www.findingschool.net/Southwestern-Academy-AZ
+http://www.findingschool.net/La-Lumiere-School
+http://www.findingschool.net/The-Phelps-School
+http://www.findingschool.net/Rabun-Gap-Nacoochee-School
+http://www.findingschool.net/Dunn-School
+http://www.findingschool.net/Oak-Hill-Academy
+http://www.findingschool.net/Woodlands-Academy-of-the-Sacred-Heart
+http://www.findingschool.net/Oak-Grove-School
+http://www.findingschool.net/The-Northwest-School
+http://www.findingschool.net/American-Hebrew-Academy
+http://www.findingschool.net/West-Nottingham-Academy
+http://www.findingschool.net/Massanutten-Military-Academy
+http://www.findingschool.net/St-Bernard-Preparatory-School
+http://www.findingschool.net/Ojai-Valley-School
+http://www.findingschool.net/Buffalo-Seminary
+http://www.findingschool.net/Miller-School-of-Albemarle
+http://www.findingschool.net/Justin-Siena-High-School
+http://www.findingschool.net/St-Johnsbury-Academy
+http://www.findingschool.net/Wayland-Academy
+http://www.findingschool.net/Cotter-Schools
+http://www.findingschool.net/St-Andrews-Sewanee-School
+http://www.findingschool.net/Wasatch-Academy
+http://www.findingschool.net/Buxton-School
+http://www.findingschool.net/Princeton-International-School-of-Mathematics-and-Science
+http://www.findingschool.net/The-Winchendon-School
+http://www.findingschool.net/Lustre-Christian-High-School
+http://www.findingschool.net/Hyde-School
+http://www.findingschool.net/Stuart-Hall-School
+http://www.findingschool.net/High-Mowing-School
+http://www.findingschool.net/St-Croix-Lutheran-Academy
+http://www.findingschool.net/The-Kiski-School
+http://www.findingschool.net/Washington-Academy
+http://www.findingschool.net/Andrews-Osborne-Academy
+http://www.findingschool.net/Thomas-More-Prep-Marian
+http://www.findingschool.net/Fryeburg-Academy
+http://www.findingschool.net/Maui-Preparatory-Academy
+http://www.findingschool.net/Monte-Vista-Christian-School
+http://www.findingschool.net/Oldfields-School
+http://www.findingschool.net/Interlochen-Arts-Academy
+http://www.findingschool.net/Kents-Hill-School
+http://www.findingschool.net/St-Thomas-More-School
+http://www.findingschool.net/Admiral-Farragut-Academy
+http://www.findingschool.net/Academy-of-the-Holy-Family
+http://www.findingschool.net/Verde-Valley-School
+http://www.findingschool.net/The-MacDuffie-School
+http://www.findingschool.net/Colorado-Rocky-Mountain-School
+http://www.findingschool.net/New-York-Military-Academy
+http://www.findingschool.net/Academy-of-the-Sacred-Heart
+http://www.findingschool.net/Houghton-Academy
+http://www.findingschool.net/Army-and-Navy-Academy
+http://www.findingschool.net/Southwestern-Academy-(CA)
+http://www.findingschool.net/Valley-Forge-Military-Academy
+http://www.findingschool.net/Fork-Union-Military-Academy
+http://www.findingschool.net/Montverde-Academy
+http://www.findingschool.net/San-Marcos-Academy
+http://www.findingschool.net/San-Marcos-Academy
+http://www.findingschool.net/Christchurch-School
+http://www.findingschool.net/Iolani-School
+http://www.findingschool.net/Randolph-Macon-Academy
+http://www.findingschool.net/Northwood-School
+http://www.findingschool.net/Olney-Friends-School
+http://www.findingschool.net/Woodstock-Academy
+http://www.findingschool.net/Ross-School
+http://www.findingschool.net/Scattergood-Friends-School
+http://www.findingschool.net/Darrow-School
+http://www.findingschool.net/The-Woodhall-School
+http://www.findingschool.net/Idyllwild-Arts-Academy
+http://www.findingschool.net/Robinson-School
+http://www.findingschool.net/Lyndon-Institute
+http://www.findingschool.net/Hebron-Academy
+http://www.findingschool.net/Besant-Hill-School
+http://www.findingschool.net/Chapel-Hill-Chauncy-Hall-School
+http://www.findingschool.net/Subiaco-Academy
+http://www.findingschool.net/Erie-First-Christian-Academy
+http://www.findingschool.net/Carlisle-School
+http://www.findingschool.net/Canyonville-Christian-Academy
+http://www.findingschool.net/Forman-School
+http://www.findingschool.net/Landmark-School
+http://www.findingschool.net/Florida-Air-Academy
+http://www.findingschool.net/Missouri-Military-Academy
+http://www.findingschool.net/Grand-River-Academy
+http://www.findingschool.net/Maur-Hill-Mount-Academy
+http://www.findingschool.net/The-Calverton-School
+http://www.findingschool.net/Carson-Long-Military-Academy
+http://www.findingschool.net/Hargrave-Military-Academy
+http://www.findingschool.net/Riverside-Military-Academy
+http://www.findingschool.net/New-Mexico-Military-Institute
+http://www.findingschool.net/Purnell-School
+http://www.findingschool.net/Hoosac-School
+http://www.findingschool.net/Howe-Military-Academy
+http://www.findingschool.net/Milton-Hershey-School
+http://www.findingschool.net/St-Stanislaus-College
+http://www.findingschool.net/St-Johns-Military-School
+http://www.findingschool.net/Fishburne-Military-School
+http://www.findingschool.net/Steamboat-Mountain-School
+http://www.findingschool.net/Archbishop-Stepinac-High-School
+http://www.findingschool.net/The-Kings-Academy-TN
+http://www.findingschool.net/Ben-Lippen-School
+http://www.findingschool.net/Girard-College
+http://www.findingschool.net/Lee-Academy
+http://www.findingschool.net/The-Orme-School-of-Arizona
+http://www.findingschool.net/Oakdale-Christian-Academy
+http://www.findingschool.net/Camden-Military-Academy
+http://www.findingschool.net/The-Leelanau-School
+http://www.findingschool.net/Oliverian-School
+http://www.findingschool.net/The-Oxford-Academy
+http://www.findingschool.net/Marine-Military-Academy
+http://www.findingschool.net/Auburn-Adventist-Academy
+http://www.findingschool.net/The-Gow-School
+http://www.findingschool.net/The-Glenholme-School
+http://www.findingschool.net/Brehm-Preparatory-School
+http://www.findingschool.net/The-Kildonan-School
+http://www.findingschool.net/Colorado-Timberline-Academy
+http://www.findingschool.net/Rock-Point-School
+http://www.findingschool.net/The-Vanguard-School-FL
+http://www.findingschool.net/The-Greenwood-School
+http://www.findingschool.net/Hampshire-Country-School
+http://www.findingschool.net/ranking/FS-Boarding-Ranking
+http://www.findingschool.net/Fay-School
+http://www.findingschool.net/ranking/FS-Boarding-Ranking
+http://www.findingschool.net/Bement-School
+http://www.findingschool.net/Rumsey-Hall-School
+http://www.findingschool.net/Indian-Mountain-School
+http://www.findingschool.net/The-Rectory-School
+http://www.findingschool.net/Eaglebrook-School
+http://www.findingschool.net/The-Fessenden-School
+http://www.findingschool.net/Hillside-School
+http://www.findingschool.net/Cardigan-Mountain-School
+http://www.findingschool.net/North-Country-School
+http://www.findingschool.net/Brentwood-College-School
+http://www.findingschool.net/Wolfeboro-The-Summer-Boarding-School
+http://www.findingschool.net/Bridgton-Academy
+http://www.findingschool.net/St-Andrews-College
+http://www.findingschool.net/St-Michaels-University-School
+http://www.findingschool.net/Ridley-College
+http://www.findingschool.net/Shawnigan-Lake-School
+http://www.findingschool.net/Havergal-College
+http://www.findingschool.net/Ashbury-College
+http://www.findingschool.net/Stanstead-College
+http://www.findingschool.net/Rosseau-Lake-College
+http://www.findingschool.net/Rothesay-Netherwood-School
+http://www.findingschool.net/The-Bishop-Strachan-School
+http://www.findingschool.net/Bishops-College-School
+http://www.findingschool.net/Leysin-American-School-in-Switzerland-(LAS)
+http://www.findingschool.net/Bronte-College-of-Canada
+http://www.findingschool.net/Brillantmont-International-School
+http://www.findingschool.net/Aiglon-College
+http://www.findingschool.net/Canadian-College-Italy
+http://www.findingschool.net/EduKick-Academic-Soccer-(Sports)-Boarding-School-Academies
+http://www.findingschool.net/Institut-Le-Rosey
+http://www.findingschool.net/ranking/FS-Boarding-Ranking
+http://www.findingschool.net/Whittle-School-Studios
